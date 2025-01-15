@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="gx0JeObWeDzfYNAg6xAt" name="Page-1">
+        <mxGraphModel dx="613" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Persona" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="70" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- peso : float&#10;- estatura : float&#10;- imc : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="26" width="200" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2">
+                    <mxGeometry y="80" width="200" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+ Persona() :&#10;+ setPeso() : void&#10;+ setEstatura() : void&#10;+ getPeso() : float&#10;+ getEstatura() :float&#10;+ calculaIMC() : float&#10;+ void imprimeIMC(float imc) : void&#10;+ ~Persona() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="88" width="200" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Temperatura" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="70" width="270" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="- tempC : float&#10;- tempF : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6">
+                    <mxGeometry y="26" width="270" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6">
+                    <mxGeometry y="80" width="270" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+ Temperatura() :&#10;+ setTemperatura() : void&#10;+ getTemperatura() : float&#10;+ calculaTemperatura() : float&#10;+ void imprimeTemperatura(float tempF) : void&#10;+ ~Temperatura() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6">
+                    <mxGeometry y="88" width="270" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Planeta" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="300" width="430" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="- edadT : float&#10;- edadM : float&#10;- edadV : float&#10;- edadJ : float&#10;- edadS : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="26" width="430" height="84" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="10">
+                    <mxGeometry y="110" width="430" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ Planeta() :&#10;+ setEdadT() : void&#10;+ getEdadT() : float&#10;+ calculaEdadM() : float&#10;+ calculaEdadV() : float&#10;+ calculaEdadJ() : float&#10;+ calculaEdadS() : float&#10;+ void imprimeEdad(float edadJ, float edadM, float edadS, float edadV) : void&#10;+ ~Planeta() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="118" width="430" height="172" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
