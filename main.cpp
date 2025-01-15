@@ -2,6 +2,7 @@
 #include "Persona.h"
 #include "Temperatura.h"
 #include "Planeta.h"
+#include "Ecuacion.h"
 
 using namespace std;
 
@@ -26,4 +27,10 @@ int main()
     Pl1.setEdadT();
     Pl1.imprimeEdad(Pl1.calculaEdadJ(), Pl1.calculaEdadM(), Pl1.calculaEdadV(), Pl1.calculaEdadS());
 
+    cout<<"Ejercicio 4"<<endl;
+    Ecuacion E1;
+    E1.setValorA();
+    E1.setValorB();
+    E1.setValorC();
+    E1.imprimeResultado(E1.calculaResultado1(), E1.calculaResultado2());
 }
