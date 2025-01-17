@@ -3,6 +3,7 @@
 #include "Temperatura.h"
 #include "Planeta.h"
 #include "Ecuacion.h"
+#include "Invierte.h"
 
 using namespace std;
 
@@ -33,4 +34,15 @@ int main()
     E1.setValorB();
     E1.setValorC();
     E1.imprimeResultado(E1.calculaResultado1(), E1.calculaResultado2());
+
+    cout<<"Ejercicio 5"<<endl;
+    Invierte I1;
+    I1.setValorR();
+    I1.setValorN();
+    I1.setValorP();
+    cout<<"Su inversión de "<<I1.getValorP()<<" euros";
+    cout<<" en un periodo de "<<I1.getValorN()<<" años";
+    cout<<" con una tasa de interés de "<<I1.getValorR();
+    I1.imprimeGanancia(I1.calculaGanancia());
+    
 }

@@ -47,13 +47,13 @@ float Ecuacion::getValorC()
 
 float Ecuacion::calculaResultado1()
 {
-    res1 = ((b*b)+((4*a*c)*0.5))/(2*a);
+    res1 = (-b+(((b*b)-4*a*c)*0.5))/(2*a);
     return res1;
 }
 
 float Ecuacion::calculaResultado2()
 {
-    res2 = ((b*b)-((4*a*c)*0.5))/(2*a);
+    res2 = (-b-(((b*b)-4*a*c)*0.5))/(2*a);
     return res2;
 }
 
