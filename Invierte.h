@@ -21,7 +21,7 @@ class Invierte
         float calculaGanancia();
         void imprimeGanancia(float dineroF);
 
-        virtual ~Ecuacion();
+        virtual ~Invierte();
 
 };
 

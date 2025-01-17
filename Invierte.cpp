@@ -46,16 +46,16 @@ float Invierte::getValorP()
 
 float Invierte::calculaGanancia()
 {
-    dineroF = (P(1-(R/100)*N+1))/(1-(R/100))
+    dineroF = (P*(1-(R/100)*N+1))/(1-(R/100));
     return dineroF;
 }
 
 void Invierte::imprimeGanancia(float dineroF)
 {
-    cout<<" generará una ganancia de: "<<dineroF<<endl;
+    cout<<" generará una ganancia de: "<<dineroF<<" euros"<<endl;
 }
 
-virtual Invierte::~Ecuacion()
+Invierte::~Invierte()
 {
 
 }
