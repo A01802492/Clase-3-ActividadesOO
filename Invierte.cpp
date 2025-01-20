@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Invierte.h"
+#include <cmath>
 
 using namespace std;
 
@@ -46,7 +47,7 @@ float Invierte::getValorP()
 
 float Invierte::calculaGanancia()
 {
-    dineroF = (P*(1-(R/100)*N+1))/(1-(R/100));
+    dineroF = (P*(1-pow(R/100, N+1)))/(1-(R/100));
     return dineroF;
 }
 

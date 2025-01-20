@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gx0JeObWeDzfYNAg6xAt" name="Page-1">
-        <mxGraphModel dx="353" dy="230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="388" dy="253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -40,16 +40,28 @@
                 <mxCell id="13" value="+ Planeta() :&#10;+ setEdadT() : void&#10;+ getEdadT() : float&#10;+ calculaEdadM() : float&#10;+ calculaEdadV() : float&#10;+ calculaEdadJ() : float&#10;+ calculaEdadS() : float&#10;+ imprimeEdad(float edadJ, float edadM, float edadS, float edadV) : void&#10;+ ~Planeta() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="10" vertex="1">
                     <mxGeometry y="118" width="430" height="172" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Ecuacion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                <mxCell id="14" value="Ecuacion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="380" width="270" height="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="- a : float&#10;- b : float&#10;- c : float&#10;- res1 : float&#10;- res2 : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+                <mxCell id="15" value="- a : float&#10;- b : float&#10;- c : float&#10;- res1 : float&#10;- res2 : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
                     <mxGeometry y="26" width="270" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="14">
+                <mxCell id="16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="14" vertex="1">
                     <mxGeometry y="110" width="270" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="+ Ecuacion() :&#10;+ setValorA() : void&#10;+ setValorB() : void&#10;+ setValorC() : void&#10;+ getValorA() : float&#10;+ getValorB() : float&#10;+ getValorC() : float&#10;+ calculaResultado1() : float&#10;+ calculaResultado2() : float&#10;+ imprimeResultado(float res1, float res2) : void&#10;+ ~Ecuacion() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+                <mxCell id="17" value="+ Ecuacion() :&#10;+ setValorA() : void&#10;+ setValorB() : void&#10;+ setValorC() : void&#10;+ getValorA() : float&#10;+ getValorB() : float&#10;+ getValorC() : float&#10;+ calculaResultado1() : float&#10;+ calculaResultado2() : float&#10;+ imprimeResultado(float res1, float res2) : void&#10;+ ~Ecuacion() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
+                    <mxGeometry y="118" width="270" height="192" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Invierte" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="380" width="270" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="- R : float&#10;- N : float&#10;- P : float&#10;- dineroF : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="18">
+                    <mxGeometry y="26" width="270" height="84" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="18">
+                    <mxGeometry y="110" width="270" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="+ Invierte() :&#10;+ setValorR() : void&#10;+ setValorN() : void&#10;+ setValorP() : void&#10;+ getValorR() : float&#10;+ getValorN() : float&#10;+ getValorP() : float&#10;+ calculaGanancia() : float&#10;+ imprimeGanancia(float dineroF) : void&#10;+ ~Invierte() : virtual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="18">
                     <mxGeometry y="118" width="270" height="192" as="geometry"/>
                 </mxCell>
             </root>

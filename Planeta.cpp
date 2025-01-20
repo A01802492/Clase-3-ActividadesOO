@@ -49,7 +49,7 @@ float Planeta::calculaEdadS()
 
 void Planeta::imprimeEdad(float edadJ, float edadM, float edadS, float edadV)
 {
-    cout<<"Esta sería tu edad en estos planetas: "<<endl;
+    cout<<"Esta sería tu edad en años en estos planetas: "<<endl;
     cout<<edadJ<<" En Júpiter"<<endl;
     cout<<edadV<<" En Vénus"<<endl;
     cout<<edadM<<" En Mercurio"<<endl;
